@@ -11,7 +11,7 @@ FROM t_gabriela_rempelova_project_sql_primary_final tgrpspf
 GROUP BY category_code, year_price, category_food_name;
 
 
--- seřazeno od nejmenšího meziročního nárustu
+-- seřazeno od nejmenšího meziročního nárustu (odpověď A a B)
 SELECT 
 	category_code,
 	year_price,

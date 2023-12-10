@@ -22,7 +22,7 @@ DROP TABLE t_avg_value_food_index
 
 CREATE TABLE t_avg_value_food_index
 (
-SELECT 
+	SELECT 
 		year_price,
 		avg(value_food) AS avg_value_food,
 		lag(avg(value_food)) OVER (ORDER BY (avg(year_price))) AS avg_value_food_prev_year,

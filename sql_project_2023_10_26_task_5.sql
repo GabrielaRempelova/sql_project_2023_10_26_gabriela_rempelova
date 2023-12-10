@@ -17,4 +17,4 @@ JOIN t_avg_value_salary_index tavs
 	ON tavs.payroll_year =a2.year 
 JOIN t_avg_value_food_index tavfi
 	ON tavfi.year_price = a2.`year`
-WHERE country = "Czech Republic"
+WHERE country = "Czech Republic";
